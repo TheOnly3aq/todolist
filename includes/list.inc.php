@@ -11,6 +11,6 @@ if (isset($_POST["submit"])) {
   createList($conn, $title, $date);
 
 } else {
-    header("location: ../index.php");
+    header("location: ../index.php?error");
     exit();
 }

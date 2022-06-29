@@ -53,3 +53,7 @@ body {
   .complete {
     text-decoration: line-through;
   }
+
+  .striped {
+      text-decoration: line-through;
+  }
